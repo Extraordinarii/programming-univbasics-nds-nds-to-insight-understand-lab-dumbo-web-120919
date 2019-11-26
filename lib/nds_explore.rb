@@ -15,9 +15,9 @@ def print_first_directors_movie_titles
   counter = 0 
   
   while counter < movie.length do
-  title = movie[counter][:titles]
+  titles = movie[counter][:title]
   counter +=1
-  puts title
+  puts titles
   
   end
 end
